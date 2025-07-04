@@ -1,28 +1,31 @@
 {
-  "name": "symptom-checker-app",
+  "name": "medical-symptom-checker",
   "version": "1.0.0",
-  "description": "A comprehensive symptom checker web application",
+  "description": "AI-powered medical symptom checker with nested questioning",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "echo 'Build completed'"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "body-parser": "^1.20.2",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Artbellsonmamuri/symptom-checker-app.git"
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4"
   },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "medical",
+    "symptom-checker",
+    "healthcare",
+    "diagnosis"
+  ],
+  "author": "Medical Symptom Checker Team",
   "license": "MIT"
 }

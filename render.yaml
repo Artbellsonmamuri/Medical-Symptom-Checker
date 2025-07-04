@@ -1,13 +1,11 @@
 services:
   - type: web
-    name: symptom-checker-app
+    name: medical-symptom-checker
     env: node
-    plan: free
     buildCommand: npm install
     startCommand: npm start
+    plan: free
     healthCheckPath: /health
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 10000

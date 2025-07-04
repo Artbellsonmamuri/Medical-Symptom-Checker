@@ -1,0 +1,354 @@
+{
+  "symptoms": {
+    "constitutional": [
+      "Fever",
+      "Fatigue",
+      "Weight loss",
+      "Night sweats",
+      "Chills",
+      "Loss of appetite",
+      "Weakness",
+      "Malaise"
+    ],
+    "respiratory": [
+      "Cough",
+      "Shortness of breath",
+      "Chest pain",
+      "Wheezing",
+      "Sore throat",
+      "Runny nose",
+      "Congestion",
+      "Difficulty breathing"
+    ],
+    "cardiovascular": [
+      "Chest pain",
+      "Palpitations",
+      "Leg swelling",
+      "Dizziness",
+      "Fainting",
+      "Irregular heartbeat",
+      "High blood pressure"
+    ],
+    "gastrointestinal": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Constipation",
+      "Abdominal pain",
+      "Bloating",
+      "Heartburn",
+      "Loss of appetite",
+      "Blood in stool"
+    ],
+    "neurological": [
+      "Headache",
+      "Dizziness",
+      "Confusion",
+      "Memory problems",
+      "Seizure",
+      "Weakness",
+      "Numbness",
+      "Tingling"
+    ],
+    "musculoskeletal": [
+      "Joint pain",
+      "Muscle pain",
+      "Back pain",
+      "Stiffness",
+      "Swelling",
+      "Limited mobility",
+      "Muscle weakness"
+    ],
+    "genitourinary": [
+      "Frequent urination",
+      "Painful urination",
+      "Blood in urine",
+      "Difficulty urinating",
+      "Kidney pain",
+      "Pelvic pain"
+    ],
+    "dermatological": [
+      "Skin rash",
+      "Itching",
+      "Skin lesions",
+      "Bruising",
+      "Color changes",
+      "Dry skin",
+      "Skin burning"
+    ]
+  },
+  "conditions": [
+    {
+      "id": 1,
+      "name": "Common Cold",
+      "severity": "mild",
+      "symptoms": [
+        "Runny nose",
+        "Sore throat",
+        "Cough",
+        "Congestion",
+        "Fatigue"
+      ],
+      "description": "Viral upper respiratory infection",
+      "recommendedDoctor": "Primary Care Physician"
+    },
+    {
+      "id": 2,
+      "name": "Influenza",
+      "severity": "moderate",
+      "symptoms": [
+        "Fever",
+        "Chills",
+        "Muscle pain",
+        "Fatigue",
+        "Headache",
+        "Cough"
+      ],
+      "description": "Viral infection affecting respiratory system",
+      "recommendedDoctor": "Primary Care Physician"
+    },
+    {
+      "id": 3,
+      "name": "Pneumonia",
+      "severity": "severe",
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Shortness of breath",
+        "Chest pain",
+        "Fatigue"
+      ],
+      "description": "Infection causing inflammation in lungs",
+      "recommendedDoctor": "Pulmonologist"
+    },
+    {
+      "id": 4,
+      "name": "Heart Attack",
+      "severity": "emergency",
+      "symptoms": [
+        "Chest pain",
+        "Shortness of breath",
+        "Nausea",
+        "Dizziness",
+        "Palpitations"
+      ],
+      "description": "Blocked blood flow to heart muscle",
+      "recommendedDoctor": "Emergency Medicine"
+    },
+    {
+      "id": 5,
+      "name": "Stroke",
+      "severity": "emergency",
+      "symptoms": [
+        "Confusion",
+        "Weakness",
+        "Difficulty speaking",
+        "Headache",
+        "Dizziness"
+      ],
+      "description": "Disrupted blood flow to brain",
+      "recommendedDoctor": "Emergency Medicine"
+    },
+    {
+      "id": 6,
+      "name": "Migraine",
+      "severity": "moderate",
+      "symptoms": [
+        "Headache",
+        "Nausea",
+        "Dizziness",
+        "Sensitivity to light"
+      ],
+      "description": "Severe recurring headaches",
+      "recommendedDoctor": "Neurologist"
+    },
+    {
+      "id": 7,
+      "name": "Gastroenteritis",
+      "severity": "moderate",
+      "symptoms": [
+        "Nausea",
+        "Vomiting",
+        "Diarrhea",
+        "Abdominal pain",
+        "Fever"
+      ],
+      "description": "Inflammation of stomach and intestines",
+      "recommendedDoctor": "Gastroenterologist"
+    },
+    {
+      "id": 8,
+      "name": "Urinary Tract Infection",
+      "severity": "moderate",
+      "symptoms": [
+        "Frequent urination",
+        "Painful urination",
+        "Blood in urine",
+        "Pelvic pain"
+      ],
+      "description": "Infection in urinary system",
+      "recommendedDoctor": "Urologist"
+    },
+    {
+      "id": 9,
+      "name": "Allergic Reaction",
+      "severity": "urgent",
+      "symptoms": [
+        "Skin rash",
+        "Itching",
+        "Swelling",
+        "Difficulty breathing"
+      ],
+      "description": "Immune system response to allergen",
+      "recommendedDoctor": "Allergist"
+    },
+    {
+      "id": 10,
+      "name": "Arthritis",
+      "severity": "mild",
+      "symptoms": [
+        "Joint pain",
+        "Stiffness",
+        "Swelling",
+        "Limited mobility"
+      ],
+      "description": "Inflammation of joints",
+      "recommendedDoctor": "Rheumatologist"
+    },
+    {
+      "id": 11,
+      "name": "Hypertension",
+      "severity": "moderate",
+      "symptoms": [
+        "High blood pressure",
+        "Headache",
+        "Dizziness",
+        "Chest pain"
+      ],
+      "description": "Persistently high blood pressure",
+      "recommendedDoctor": "Cardiologist"
+    },
+    {
+      "id": 12,
+      "name": "Diabetes",
+      "severity": "moderate",
+      "symptoms": [
+        "Frequent urination",
+        "Excessive thirst",
+        "Fatigue",
+        "Weight loss"
+      ],
+      "description": "High blood sugar levels",
+      "recommendedDoctor": "Endocrinologist"
+    },
+    {
+      "id": 13,
+      "name": "Severe Allergic Reaction",
+      "severity": "emergency",
+      "symptoms": [
+        "Difficulty breathing",
+        "Swelling",
+        "Dizziness",
+        "Skin rash",
+        "Nausea"
+      ],
+      "description": "Life-threatening allergic reaction",
+      "recommendedDoctor": "Emergency Medicine"
+    }
+  ],
+  "doctors": [
+    {
+      "specialty": "Primary Care Physician",
+      "description": "General healthcare and routine checkups",
+      "conditions": [
+        "Common Cold",
+        "Influenza",
+        "Minor injuries",
+        "Preventive care"
+      ]
+    },
+    {
+      "specialty": "Emergency Medicine",
+      "description": "Life-threatening conditions requiring immediate attention",
+      "conditions": [
+        "Heart Attack",
+        "Stroke",
+        "Severe Allergic Reaction",
+        "Trauma"
+      ]
+    },
+    {
+      "specialty": "Cardiologist",
+      "description": "Heart and cardiovascular system specialists",
+      "conditions": [
+        "Heart Attack",
+        "Hypertension",
+        "Heart rhythm disorders"
+      ]
+    },
+    {
+      "specialty": "Pulmonologist",
+      "description": "Lung and respiratory system specialists",
+      "conditions": [
+        "Pneumonia",
+        "Asthma",
+        "Chronic lung disease"
+      ]
+    },
+    {
+      "specialty": "Neurologist",
+      "description": "Brain and nervous system specialists",
+      "conditions": [
+        "Stroke",
+        "Migraine",
+        "Seizures",
+        "Memory problems"
+      ]
+    },
+    {
+      "specialty": "Gastroenterologist",
+      "description": "Digestive system specialists",
+      "conditions": [
+        "Gastroenteritis",
+        "Inflammatory bowel disease",
+        "Liver disease"
+      ]
+    },
+    {
+      "specialty": "Urologist",
+      "description": "Urinary system specialists",
+      "conditions": [
+        "Urinary Tract Infection",
+        "Kidney stones",
+        "Bladder problems"
+      ]
+    },
+    {
+      "specialty": "Allergist",
+      "description": "Allergy and immune system specialists",
+      "conditions": [
+        "Allergic Reaction",
+        "Asthma",
+        "Food allergies"
+      ]
+    },
+    {
+      "specialty": "Rheumatologist",
+      "description": "Joint and autoimmune disease specialists",
+      "conditions": [
+        "Arthritis",
+        "Lupus",
+        "Fibromyalgia"
+      ]
+    },
+    {
+      "specialty": "Endocrinologist",
+      "description": "Hormone and metabolism specialists",
+      "conditions": [
+        "Diabetes",
+        "Thyroid disorders",
+        "Hormonal imbalances"
+      ]
+    }
+  ]
+}
