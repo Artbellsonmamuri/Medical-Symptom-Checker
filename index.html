@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Symptom Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <header class="header">
+                <h1>Medical Symptom Checker</h1>
+                <p class="subtitle">Get insights into your symptoms and find the right healthcare professional</p>
+            </header>
+            
+            <div class="card welcome-card">
+                <div class="card__body">
+                    <h2>How it works</h2>
+                    <ul class="feature-list">
+                        <li>Select your symptoms from organized categories</li>
+                        <li>Answer targeted follow-up questions</li>
+                        <li>Get analysis of possible conditions</li>
+                        <li>Receive specialist recommendations</li>
+                        <li>Download a detailed report</li>
+                    </ul>
+                    
+                    <div class="disclaimer">
+                        <h3>Important Medical Disclaimer</h3>
+                        <p>This tool is for informational purposes only and should not replace professional medical advice. Always consult with a qualified healthcare provider for proper diagnosis and treatment.</p>
+                    </div>
+                    
+                    <button class="btn btn--primary btn--lg btn--full-width" id="start-btn">
+                        Start Symptom Check
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Symptom Selection Screen -->
+        <div id="symptom-screen" class="screen">
+            <header class="header">
+                <h1>Select Your Symptoms</h1>
+                <p class="subtitle">Choose the symptoms you're experiencing from the categories below</p>
+            </header>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            
+            <div class="symptom-categories" id="symptom-categories"></div>
+            
+            <div class="selected-symptoms" id="selected-symptoms">
+                <h3>Selected Symptoms</h3>
+                <div class="symptoms-list" id="symptoms-list"></div>
+            </div>
+            
+            <div class="navigation">
+                <button class="btn btn--secondary" id="back-to-welcome">Back</button>
+                <button class="btn btn--primary" id="continue-to-questions" disabled>Continue</button>
+            </div>
+        </div>
+
+        <!-- Questions Screen -->
+        <div id="questions-screen" class="screen">
+            <header class="header">
+                <h1>Additional Questions</h1>
+                <p class="subtitle">Help us narrow down your condition with these follow-up questions</p>
+            </header>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="questions-progress"></div>
+            </div>
+            
+            <div class="question-container" id="question-container">
+                <div class="card">
+                    <div class="card__body">
+                        <h2 id="question-text"></h2>
+                        <div class="question-options">
+                            <button class="btn btn--outline question-btn" data-answer="yes">Yes</button>
+                            <button class="btn btn--outline question-btn" data-answer="no">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation">
+                <button class="btn btn--secondary" id="back-to-symptoms">Back</button>
+                <button class="btn btn--primary" id="analyze-symptoms">Analyze Symptoms</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <header class="header">
+                <h1>Analysis Results</h1>
+                <p class="subtitle">Based on your symptoms, here are the most likely conditions</p>
+            </header>
+            
+            <div class="disclaimer-banner">
+                <strong>Important:</strong> This is not a medical diagnosis. Please consult with a healthcare professional for proper evaluation.
+            </div>
+            
+            <div class="results-container" id="results-container"></div>
+            
+            <div class="doctors-section" id="doctors-section">
+                <h2>Recommended Specialists</h2>
+                <div class="doctors-grid" id="doctors-grid"></div>
+            </div>
+            
+            <div class="navigation">
+                <button class="btn btn--secondary" id="start-over">Start Over</button>
+                <button class="btn btn--primary" id="generate-report">Generate Report</button>
+            </div>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="screen loading-screen">
+            <div class="loader"></div>
+            <p>Analyzing your symptoms...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

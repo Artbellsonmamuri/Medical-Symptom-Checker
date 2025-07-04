@@ -1,0 +1,653 @@
+{
+  "symptoms": {
+    "constitutional": [
+      {
+        "id": "fever",
+        "name": "Fever",
+        "description": "Body temperature above normal (>100.4\u00b0F/38\u00b0C)"
+      },
+      {
+        "id": "fatigue",
+        "name": "Fatigue",
+        "description": "Persistent tiredness or exhaustion"
+      },
+      {
+        "id": "weight_loss",
+        "name": "Unexplained Weight Loss",
+        "description": "Significant weight loss without trying"
+      },
+      {
+        "id": "weight_gain",
+        "name": "Weight Gain",
+        "description": "Unusual weight increase"
+      },
+      {
+        "id": "chills",
+        "name": "Chills",
+        "description": "Feeling cold, shivering"
+      },
+      {
+        "id": "night_sweats",
+        "name": "Night Sweats",
+        "description": "Excessive sweating during sleep"
+      },
+      {
+        "id": "loss_appetite",
+        "name": "Loss of Appetite",
+        "description": "Decreased desire to eat"
+      },
+      {
+        "id": "malaise",
+        "name": "General Malaise",
+        "description": "General feeling of being unwell"
+      }
+    ],
+    "respiratory": [
+      {
+        "id": "cough",
+        "name": "Cough",
+        "description": "Dry or productive cough"
+      },
+      {
+        "id": "shortness_breath",
+        "name": "Shortness of Breath",
+        "description": "Difficulty breathing or breathlessness"
+      },
+      {
+        "id": "chest_pain",
+        "name": "Chest Pain",
+        "description": "Pain or discomfort in chest area"
+      },
+      {
+        "id": "wheezing",
+        "name": "Wheezing",
+        "description": "High-pitched whistling sound when breathing"
+      },
+      {
+        "id": "sore_throat",
+        "name": "Sore Throat",
+        "description": "Pain or scratchiness in throat"
+      },
+      {
+        "id": "runny_nose",
+        "name": "Runny Nose",
+        "description": "Nasal discharge or congestion"
+      },
+      {
+        "id": "sneezing",
+        "name": "Sneezing",
+        "description": "Frequent sneezing episodes"
+      },
+      {
+        "id": "coughing_blood",
+        "name": "Coughing Up Blood",
+        "description": "Blood in sputum or cough"
+      }
+    ],
+    "cardiovascular": [
+      {
+        "id": "chest_pain_cardiac",
+        "name": "Chest Pain (Cardiac)",
+        "description": "Crushing, squeezing chest pain"
+      },
+      {
+        "id": "palpitations",
+        "name": "Heart Palpitations",
+        "description": "Irregular or fast heartbeat"
+      },
+      {
+        "id": "dizziness",
+        "name": "Dizziness",
+        "description": "Feeling lightheaded or unsteady"
+      },
+      {
+        "id": "fainting",
+        "name": "Fainting",
+        "description": "Loss of consciousness"
+      },
+      {
+        "id": "leg_swelling",
+        "name": "Leg Swelling",
+        "description": "Swelling in legs, ankles, or feet"
+      },
+      {
+        "id": "cold_extremities",
+        "name": "Cold Hands/Feet",
+        "description": "Persistently cold hands or feet"
+      }
+    ],
+    "gastrointestinal": [
+      {
+        "id": "nausea",
+        "name": "Nausea",
+        "description": "Feeling sick to stomach"
+      },
+      {
+        "id": "vomiting",
+        "name": "Vomiting",
+        "description": "Throwing up"
+      },
+      {
+        "id": "diarrhea",
+        "name": "Diarrhea",
+        "description": "Loose, watery stools"
+      },
+      {
+        "id": "constipation",
+        "name": "Constipation",
+        "description": "Difficulty passing stools"
+      },
+      {
+        "id": "abdominal_pain",
+        "name": "Abdominal Pain",
+        "description": "Pain in stomach or belly area"
+      },
+      {
+        "id": "heartburn",
+        "name": "Heartburn",
+        "description": "Burning sensation in chest/throat"
+      },
+      {
+        "id": "bloating",
+        "name": "Bloating",
+        "description": "Feeling of fullness or swelling in abdomen"
+      },
+      {
+        "id": "blood_stool",
+        "name": "Blood in Stool",
+        "description": "Visible blood in bowel movements"
+      }
+    ],
+    "neurological": [
+      {
+        "id": "headache",
+        "name": "Headache",
+        "description": "Pain in head or neck area"
+      },
+      {
+        "id": "migraine",
+        "name": "Migraine",
+        "description": "Severe headache with other symptoms"
+      },
+      {
+        "id": "confusion",
+        "name": "Confusion",
+        "description": "Difficulty thinking clearly"
+      },
+      {
+        "id": "memory_loss",
+        "name": "Memory Loss",
+        "description": "Difficulty remembering things"
+      },
+      {
+        "id": "seizures",
+        "name": "Seizures",
+        "description": "Sudden electrical activity in brain"
+      },
+      {
+        "id": "numbness",
+        "name": "Numbness",
+        "description": "Loss of sensation in body parts"
+      },
+      {
+        "id": "weakness",
+        "name": "Muscle Weakness",
+        "description": "Reduced muscle strength"
+      },
+      {
+        "id": "tremor",
+        "name": "Tremor",
+        "description": "Involuntary shaking"
+      }
+    ],
+    "musculoskeletal": [
+      {
+        "id": "joint_pain",
+        "name": "Joint Pain",
+        "description": "Pain in joints"
+      },
+      {
+        "id": "muscle_pain",
+        "name": "Muscle Pain",
+        "description": "Pain in muscles"
+      },
+      {
+        "id": "back_pain",
+        "name": "Back Pain",
+        "description": "Pain in back area"
+      },
+      {
+        "id": "neck_pain",
+        "name": "Neck Pain",
+        "description": "Pain in neck area"
+      },
+      {
+        "id": "stiffness",
+        "name": "Joint Stiffness",
+        "description": "Reduced range of motion in joints"
+      },
+      {
+        "id": "swelling_joints",
+        "name": "Joint Swelling",
+        "description": "Swelling around joints"
+      }
+    ],
+    "dermatological": [
+      {
+        "id": "rash",
+        "name": "Skin Rash",
+        "description": "Changes in skin color or texture"
+      },
+      {
+        "id": "itching",
+        "name": "Itching",
+        "description": "Desire to scratch skin"
+      },
+      {
+        "id": "bruising",
+        "name": "Easy Bruising",
+        "description": "Bruises appear easily"
+      },
+      {
+        "id": "dry_skin",
+        "name": "Dry Skin",
+        "description": "Skin feels dry or flaky"
+      },
+      {
+        "id": "skin_lesions",
+        "name": "Skin Lesions",
+        "description": "Unusual marks or growths on skin"
+      }
+    ],
+    "genitourinary": [
+      {
+        "id": "painful_urination",
+        "name": "Painful Urination",
+        "description": "Pain or burning during urination"
+      },
+      {
+        "id": "frequent_urination",
+        "name": "Frequent Urination",
+        "description": "Urinating more often than usual"
+      },
+      {
+        "id": "blood_urine",
+        "name": "Blood in Urine",
+        "description": "Visible blood in urine"
+      },
+      {
+        "id": "incontinence",
+        "name": "Urinary Incontinence",
+        "description": "Loss of bladder control"
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "id": "common_cold",
+      "name": "Common Cold",
+      "category": "respiratory",
+      "symptoms": [
+        "runny_nose",
+        "sneezing",
+        "sore_throat",
+        "cough",
+        "fatigue"
+      ],
+      "severity": "mild",
+      "description": "Viral upper respiratory tract infection",
+      "doctor_type": "family_medicine"
+    },
+    {
+      "id": "influenza",
+      "name": "Influenza (Flu)",
+      "category": "respiratory",
+      "symptoms": [
+        "fever",
+        "fatigue",
+        "muscle_pain",
+        "headache",
+        "cough",
+        "sore_throat"
+      ],
+      "severity": "moderate",
+      "description": "Viral infection affecting respiratory system",
+      "doctor_type": "family_medicine"
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia",
+      "category": "respiratory",
+      "symptoms": [
+        "fever",
+        "cough",
+        "shortness_breath",
+        "chest_pain",
+        "fatigue"
+      ],
+      "severity": "severe",
+      "description": "Infection that inflames air sacs in lungs",
+      "doctor_type": "pulmonology"
+    },
+    {
+      "id": "asthma",
+      "name": "Asthma",
+      "category": "respiratory",
+      "symptoms": [
+        "wheezing",
+        "shortness_breath",
+        "cough",
+        "chest_pain"
+      ],
+      "severity": "moderate",
+      "description": "Condition where airways narrow and swell",
+      "doctor_type": "pulmonology"
+    },
+    {
+      "id": "heart_attack",
+      "name": "Heart Attack",
+      "category": "cardiovascular",
+      "symptoms": [
+        "chest_pain_cardiac",
+        "shortness_breath",
+        "nausea",
+        "dizziness",
+        "cold_extremities"
+      ],
+      "severity": "emergency",
+      "description": "Blockage of blood flow to heart muscle",
+      "doctor_type": "emergency_medicine"
+    },
+    {
+      "id": "hypertension",
+      "name": "High Blood Pressure",
+      "category": "cardiovascular",
+      "symptoms": [
+        "headache",
+        "dizziness",
+        "fatigue"
+      ],
+      "severity": "moderate",
+      "description": "Elevated blood pressure",
+      "doctor_type": "cardiology"
+    },
+    {
+      "id": "diabetes_t2",
+      "name": "Type 2 Diabetes",
+      "category": "endocrine",
+      "symptoms": [
+        "frequent_urination",
+        "fatigue",
+        "weight_loss",
+        "blurred_vision"
+      ],
+      "severity": "moderate",
+      "description": "Condition affecting blood sugar regulation",
+      "doctor_type": "endocrinology"
+    },
+    {
+      "id": "gastroenteritis",
+      "name": "Gastroenteritis",
+      "category": "gastrointestinal",
+      "symptoms": [
+        "nausea",
+        "vomiting",
+        "diarrhea",
+        "abdominal_pain",
+        "fever"
+      ],
+      "severity": "mild",
+      "description": "Inflammation of stomach and intestines",
+      "doctor_type": "family_medicine"
+    },
+    {
+      "id": "appendicitis",
+      "name": "Appendicitis",
+      "category": "gastrointestinal",
+      "symptoms": [
+        "abdominal_pain",
+        "nausea",
+        "vomiting",
+        "fever"
+      ],
+      "severity": "emergency",
+      "description": "Inflammation of the appendix",
+      "doctor_type": "emergency_medicine"
+    },
+    {
+      "id": "migraine",
+      "name": "Migraine",
+      "category": "neurological",
+      "symptoms": [
+        "headache",
+        "nausea",
+        "vomiting",
+        "sensitivity_light"
+      ],
+      "severity": "moderate",
+      "description": "Severe recurring headaches",
+      "doctor_type": "neurology"
+    },
+    {
+      "id": "arthritis",
+      "name": "Arthritis",
+      "category": "musculoskeletal",
+      "symptoms": [
+        "joint_pain",
+        "stiffness",
+        "swelling_joints"
+      ],
+      "severity": "moderate",
+      "description": "Inflammation of joints",
+      "doctor_type": "rheumatology"
+    },
+    {
+      "id": "uti",
+      "name": "Urinary Tract Infection",
+      "category": "genitourinary",
+      "symptoms": [
+        "painful_urination",
+        "frequent_urination",
+        "blood_urine"
+      ],
+      "severity": "mild",
+      "description": "Infection in urinary system",
+      "doctor_type": "family_medicine"
+    },
+    {
+      "id": "skin_infection",
+      "name": "Skin Infection",
+      "category": "dermatological",
+      "symptoms": [
+        "rash",
+        "itching",
+        "skin_lesions"
+      ],
+      "severity": "mild",
+      "description": "Bacterial or fungal skin infection",
+      "doctor_type": "dermatology"
+    }
+  ],
+  "doctor_specialties": {
+    "family_medicine": {
+      "name": "Family Medicine",
+      "description": "Primary care physicians treating patients of all ages",
+      "treats": [
+        "Common illnesses",
+        "Preventive care",
+        "Chronic disease management",
+        "Minor injuries"
+      ]
+    },
+    "emergency_medicine": {
+      "name": "Emergency Medicine",
+      "description": "Specialists treating life-threatening conditions",
+      "treats": [
+        "Heart attacks",
+        "Strokes",
+        "Severe trauma",
+        "Life-threatening emergencies"
+      ]
+    },
+    "cardiology": {
+      "name": "Cardiology",
+      "description": "Heart and blood vessel specialists",
+      "treats": [
+        "Heart disease",
+        "High blood pressure",
+        "Heart rhythm problems",
+        "Heart failure"
+      ]
+    },
+    "pulmonology": {
+      "name": "Pulmonology",
+      "description": "Lung and respiratory system specialists",
+      "treats": [
+        "Asthma",
+        "COPD",
+        "Pneumonia",
+        "Sleep disorders"
+      ]
+    },
+    "neurology": {
+      "name": "Neurology",
+      "description": "Brain and nervous system specialists",
+      "treats": [
+        "Headaches",
+        "Seizures",
+        "Stroke",
+        "Memory problems"
+      ]
+    },
+    "endocrinology": {
+      "name": "Endocrinology",
+      "description": "Hormone and metabolism specialists",
+      "treats": [
+        "Diabetes",
+        "Thyroid disorders",
+        "Hormone imbalances",
+        "Osteoporosis"
+      ]
+    },
+    "rheumatology": {
+      "name": "Rheumatology",
+      "description": "Joint and autoimmune condition specialists",
+      "treats": [
+        "Arthritis",
+        "Lupus",
+        "Autoimmune diseases",
+        "Joint disorders"
+      ]
+    },
+    "dermatology": {
+      "name": "Dermatology",
+      "description": "Skin, hair, and nail specialists",
+      "treats": [
+        "Skin cancer",
+        "Acne",
+        "Eczema",
+        "Skin infections"
+      ]
+    },
+    "gastroenterology": {
+      "name": "Gastroenterology",
+      "description": "Digestive system specialists",
+      "treats": [
+        "Stomach problems",
+        "Liver disease",
+        "Intestinal disorders",
+        "Digestive issues"
+      ]
+    }
+  },
+  "decision_trees": {
+    "respiratory_symptoms": {
+      "initial_question": "Do you have fever?",
+      "branches": {
+        "yes": {
+          "question": "Do you have productive cough with green/yellow sputum?",
+          "branches": {
+            "yes": {
+              "likely_conditions": [
+                "pneumonia",
+                "bronchitis"
+              ]
+            },
+            "no": {
+              "question": "Do you have muscle aches and fatigue?",
+              "branches": {
+                "yes": {
+                  "likely_conditions": [
+                    "influenza"
+                  ]
+                },
+                "no": {
+                  "likely_conditions": [
+                    "common_cold",
+                    "viral_infection"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "no": {
+          "question": "Do you have wheezing or difficulty breathing?",
+          "branches": {
+            "yes": {
+              "likely_conditions": [
+                "asthma",
+                "allergic_reaction"
+              ]
+            },
+            "no": {
+              "likely_conditions": [
+                "common_cold",
+                "allergies"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "chest_pain": {
+      "initial_question": "Is the chest pain crushing or squeezing?",
+      "branches": {
+        "yes": {
+          "question": "Does it radiate to arm, neck, or jaw?",
+          "branches": {
+            "yes": {
+              "likely_conditions": [
+                "heart_attack"
+              ],
+              "urgency": "emergency"
+            },
+            "no": {
+              "likely_conditions": [
+                "angina",
+                "heart_disease"
+              ]
+            }
+          }
+        },
+        "no": {
+          "question": "Does the pain worsen with breathing?",
+          "branches": {
+            "yes": {
+              "likely_conditions": [
+                "pleurisy",
+                "pneumonia"
+              ]
+            },
+            "no": {
+              "likely_conditions": [
+                "muscle_strain",
+                "anxiety"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
